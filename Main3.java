@@ -21,6 +21,8 @@ class Main3{
             }
         }
 
+        sc.close();
+
         for(int i = 0; i < k; i++){
             shiftArr(m, ops[i]);
         }
@@ -39,7 +41,7 @@ class Main3{
             System.out.println(line);
         }
 
-        sc.close();
+        
     }
 
     public static final int UP = 1;
